@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<Settings>
+	<ToolSettings>
+		<VsLocation>C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE</VsLocation>
+		<NUnitLocation>C:\automation_tools\nunit\NUnit-2.6.4\bin</NUnitLocation>
+		<NUnitProjectFile>C:\TFS\vNext\TestPlans\VPC4PMasterLibrary\SolutionItems\VPC4PMasterLibrary.nunit</NUnitProjectFile>
+		<NUnitURI>http://github.com/nunit/nunitv2/releases/download/2.6.4/NUnit-2.6.4.zip</NUnitURI>
+		<ToolsFolder>C:\automation_tools</ToolsFolder>
+		<ScreenshotsFolder>C:\automation_screenshots</ScreenshotsFolder>
+	</ToolSettings>
+	<TestEnvironments>
+	<UK>
+		<ENV Option='1'>
+			<Name>HEAD</Name>
+			<URI>https://head.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://headapi.hq.4projects.com/</API>
+			<GUID>E8FDDBAE-0C9C-483B-A3E4-468C463BC908</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>E8FDDBAE-0C9C-483B-A3E4-468C463BC908</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='2'>
+			<Name>COR</Name>
+			<URI>https://cor.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://corapi.hq.4projects.com/</API>
+			<GUID>3747ca9d-a7d9-4940-bea9-fe93164c0c3d</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>c9c1f772e6274453a24b325a6e64477a</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='3'>
+			<Name>BAU</Name>
+			<URI>https://bau.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://bauapi.hq.4projects.com/</API>
+			<GUID>3747ca9d-a7d9-4940-bea9-fe93164c0c3d</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>ff3fb19f8bb84e2aad45ab9fa148e039</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='4'>
+			<Name>PI</Name>
+			<URI>https://pi.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://piapi.hq.4projects.com/</API>
+			<GUID>3747ca9d-a7d9-4940-bea9-fe93164c0c3d</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>8fce94a155f24d229f139f1978fb9ccd</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='5'>
+			<Name>BIM</Name>
+			<URI>https://bim.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://bimapi.hq.4projects.com/</API>
+			<GUID>3747ca9d-a7d9-4940-bea9-fe93164c0c3d</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>ff3fb19f8bb84e2aad45ab9fa148e039</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='6'>
+			<Name>XBIM</Name>
+			<URI>https://ncl-xbim.hq.4projects.com/3G3/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API></API>
+			<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret></ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='7'>
+			<Name>Release</Name>
+			<URI>https://release.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://releaseapi.hq.4projects.com/</API>
+			<GUID>3747CA9D-A7D9-4940-BEA9-FE93164C0C3D</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>8fce94a155f24d229f139f1978fb9ccd</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='8'>
+			<Name>Staging UK</Name>
+			<URI>https://staging.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://stagingapi.4projects.com/</API>
+			<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+			<ClientId>AutoExistingTestUser1</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>24d37d792bc24a2a95628e73010d879a</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='9'>
+			<Name>Live UK</Name>
+			<URI>https://n3g.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://api.4projects.com/</API>
+			<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>c36bde4dd06a4df8b7798268145f7df0</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='10'>
+      <Name>Beta</Name>
+      <URI>https://beta.4projects.com/</URI>
+      <!--
+				Start API Related Connection Info
+			-->
+      <API>https://betaapi.4projects.com/</API>
+      <GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+      <ClientId>AutoExistingTestUser</ClientId>
+      <ClientPw>AutoPow001</ClientPw>
+      <ClientSecret>e41bfa4dd1614b2f86bf2d4fba70b50e</ClientSecret>
+      <!--
+				End API Related Connection Info
+			-->
+      <SysAdminUser></SysAdminUser>
+      <SysAdminPass></SysAdminPass>
+    </ENV>
+		<ENV Option='11'>
+		<Name>QA</Name>
+		<URI>https://3gqa.4projects.com/</URI>
+		<!--
+				Start API Related Connection Info
+			-->
+		<API>https://3gqaapi.4projects.com/</API>
+		<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+		<ClientId>AutoExistingTestUser</ClientId>
+		<ClientPw>AutoPow001</ClientPw>
+		<ClientSecret>382d63833085470587db6be0fef73f21</ClientSecret>
+		<!--
+				End API Related Connection Info
+			-->
+		<SysAdminUser></SysAdminUser>
+		<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='12'>
+			<Name>Tier2Tier</Name>
+			<URI>https://t2t.hq.4projects.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API></API>
+			<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+			<ClientId>AutoExistingTestUser</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>e76d6bb0d96d45fe96d108d733b557f1</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+	</UK>
+	<USA>
+		<ENV Option='13'>
+			<Name>North America QA</Name>
+			<URI>https://3gqa.4projects-na.viewpointcs.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://apiqa.4projects-na.viewpointcs.com/</API>
+			<GUID>00ae97ae-ac60-4066-ae04-fa104d1f9691</GUID>
+			<ClientId>AutoExistingTestUser@viewpoint.com</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>51a07d5643564626a76d6c536d504a79</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='14'>
+			<Name>North America Staging</Name>
+			<URI>https://3gstaging.4projects-na.viewpointcs.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://apistaging.4projects-na.viewpointcs.com/</API>
+      <GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+      <ClientId>AutoExistingTestUser@viewpoint.com</ClientId>
+      <ClientPw>AutoPow001</ClientPw>
+      <ClientSecret>51a07d5643564626a76d6c536d504a79</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='15'>
+			<Name>North America Live</Name>
+			<URI>https://3g.4projects-na.viewpointcs.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API>https://api.4projects-na.viewpointcs.com/</API>
+			<GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+			<ClientId>AutoExistingTestUser1@viewpoint.com</ClientId>
+			<ClientPw>AutoPow001</ClientPw>
+			<ClientSecret>ec4665cc87254dc3ac4b845394aef2b9</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='16'>
+			<Name>VPC</Name>
+			<URI>https://3gusqa.viewpointdev.com/</URI>
+			<!--
+				Start API Related Connection Info
+			-->
+			<API></API>
+			<GUID></GUID>
+			<ClientId></ClientId>
+			<ClientPw></ClientPw>
+			<ClientSecret></ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+	</USA>
+	<AUS>
+		<ENV Option='17'>
+			<Name>Australia Staging</Name>
+      <URI>https://3gstaging.au-vpc.viewpoint.com/</URI>
+      <!--
+				Start API Related Connection Info
+			-->
+      <API>https://apistaging.au-vpc.viewpoint.com/</API>
+      <GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+      <ClientId>AutoExistingTestUser@4projects.com</ClientId>
+      <ClientPw>AutoPow001</ClientPw>
+      <ClientSecret>0b14f6acc5f0483583eb0cf4089cab07</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+		<ENV Option='18'>
+      <Name>Australia Live</Name>
+      <URI>https://3g.au-vpc.viewpoint.com/</URI>
+      <!--
+				Start API Related Connection Info
+			-->
+      <API>https://api.au-vpc.viewpoint.com/</API>
+      <GUID>B461A498-6AD3-4489-8EFB-343979896019</GUID>
+      <ClientId>AutoExistingTestUser@4projects.com</ClientId>
+      <ClientPw>AutoPow001</ClientPw>
+      <ClientSecret>0d5929f094c1411195c2c8b756dcf6f0</ClientSecret>
+			<!--
+				End API Related Connection Info
+			-->
+			<SysAdminUser></SysAdminUser>
+			<SysAdminPass></SysAdminPass>
+		</ENV>
+	</AUS>
+	</TestEnvironments>
+	<BROWSERS>
+		<BROW Option='1'>
+			<Name>Chrome</Name>
+		</BROW>
+		<BROW Option='2'>
+			<Name>Firefox</Name>
+		</BROW>
+		<BROW Option='3'>
+			<Name>IE</Name>
+		</BROW>
+	</BROWSERS>
+</Settings>

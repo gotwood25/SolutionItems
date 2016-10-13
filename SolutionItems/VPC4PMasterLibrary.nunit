@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="..\bin\Debug\VPC4PMasterLibrary.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="..\bin\Release\VPC4PMasterLibrary.dll" />
+  </Config>
+</NUnitProject>
